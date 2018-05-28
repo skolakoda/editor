@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Editor Škole koda</title>
+
+  <link rel="stylesheet" href="node_modules/codemirror/lib/codemirror.css">
+  <link rel="stylesheet" href="node_modules/codemirror/theme/monokai.css">
+  <style media="screen">
+    * {
+      box-sizing: border-box;
+    }
+    pre {
+      margin: 0;
+    }
+    .editor-wrapper {
+      display: flex;
+      justify-content: space-between;
+    }
+    .CodeMirror,
+    .output {
+      width: 49%;
+      height: 400px;
+    }
+    .output {
+      background: #333;
+      color: #fff;
+      padding: 4px 16px;
+      font-family: monospace;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>Editor Škole koda</h1>
+  <p>Izaberi programski jezik</p>
+
+  <select id="language">
+    <option value="c" selected="selected">C </option>
+    <option value="cpp">C++ </option>
+    <option value="java">Java</option>
+    <option value="js">Javascript </option>
+    <option value="python">Python </option>
+    <option value="haskell">Haskell </option>
+  </select>
+
+  <div class="editor-wrapper">
+    <textarea id="input" rows="8" cols="80"></textarea>
+    <pre id="output" class="output"></pre>
+  </div>
+
+  <button id="run">Izvrši ⚙</button>
+
+  <script src="node_modules/codemirror/lib/codemirror.js"></script>
+
+  <script src="node_modules/codemirror/mode/clike/clike.js"></script>
+  <script src="node_modules/codemirror/mode/javascript/javascript.js"></script>
+  <script src="node_modules/codemirror/mode/python/python.js"></script>
+  <script src="node_modules/codemirror/mode/haskell/haskell.js"></script>
+  <script src="js/language-codes.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
