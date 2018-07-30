@@ -15,6 +15,7 @@ const editorCodes = {
   cpp: "text/x-c++src",
   java: "text/x-java",
   js: "text/javascript",
+  php: "text/x-php",
   python: "text/x-python",
   haskell: "text/x-haskell",
 }
@@ -43,6 +44,10 @@ int main(){
 }
 `,
   js: `console.log('Zdravo Javascript')\n`,
+  php: `<?php
+
+echo "Zdravo PHP.";
+`,
   python: `print('Zdravo Python')\n`,
   haskell: `main = print "Zdravo Haskell"\n`,
 }
