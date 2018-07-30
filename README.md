@@ -1,3 +1,5 @@
+[![](screen.png)](https://skolakoda.org/editor/)
+
 # Editor Škole koda
 
 Za pokretanje programskih jezika u pregledaču.
