@@ -2,10 +2,8 @@
 
 # Editor Škole koda
 
-Za pokretanje programskih jezika u pregledaču.
+Za pokretanje programskih jezika u pregledaču. 
+
+Za prepoznavanje koda koristimo [CodeMirror](https://codemirror.net/) editor, a za pokretanje [HackerRank](hackerrank.com) API.
 
 Vidi kako radi na: [skolakoda.org/editor](https://skolakoda.org/editor/)
-
-## TODO
-
-- staviti skrolbar na izlaznom prozoru, kad ima previse linija ne vidi se
