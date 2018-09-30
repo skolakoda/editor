@@ -5,3 +5,7 @@
 Za pokretanje programskih jezika u pregledaču.
 
 Vidi kako radi na: [skolakoda.org/editor](https://skolakoda.org/editor/)
+
+## TODO
+
+- staviti skrolbar na izlaznom prozoru, kad ima previse linija ne vidi se
