@@ -78,7 +78,10 @@ function izvrsiJS(input, output) {
   } catch (e) {
     console.log(e.message)
   }
-  console.log = originalLog
+  // nakon asinhronih poziva
+  setTimeout(() => {
+    console.log = originalLog      
+  }, 5000)
 }
 
 function izvrsiNaServeru(input, lang, output) {
